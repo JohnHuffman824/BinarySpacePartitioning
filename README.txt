@@ -5,7 +5,7 @@ CS 252 Algorithms
 
 This library contains out primary code file 'partition.py' and a csv file points.csv which is used to illustrate the algorithm in action. We also include the graphics library graphics.py to help visualize the algorithm. You will need numpy to run to code.
 
-By default, our test code generates a BSP once, and then uses that same BSP to render the scene from 10 randomly selected viewpoints.
+By default, our test code generates a BSP once which renders the doom logo, there are several test data sets which can be uncommented to see simpler test scenarios.
 
 Within the main function there are a couple global variables which are important to understand the code.
     scale_factor - A variable which is used to assist rendering. It increases sizes when displayed so we can define points at a lower scale but have them displayed visibly. It can be increased or decreased to change rendering sizes
